@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>大和青果 – Fresh Fruits & Vegetables</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ---------------- Header ---------------- -->
+    <header>
+      <nav>
+        <div class="logo">
+          <!-- Replace with real logo -->
+          <img src="image/zero.jpg" alt="大和青果" />大和青果
+        </div>
+        <ul>
+          <li><a href="#home">ホーム</a></li>
+          <li><a href="#products">商品</a></li>
+          <li><a href="#about">私たちについて</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+        <button class="dark-toggle" onclick="toggleDarkMode()">🌙</button>
+        <div class="burger"><i class="fas fa-bars"></i></div>
+      </nav>
+    </header>
+
+    <!-- ---------------- Main ---------------- -->
+    <main id="home">
+      <!-- Hero -->
+      <section class="hero">
+        <h1>新鮮な野菜と果物</h1>
+        <p>
+          大地の恵みをそのままに。こだわりの有機野菜と果物を毎日お届けします。
+        </p>
+        <p class="slogan">
+          Nature's finest — delivered fresh every day with care and dedication
+        </p>
+        <!-- 推奨コメント -->
+        <div class="callout">
+          <h3>推奨コメント</h3>
+          <p>
+            野菜の旨味は旬を迎えたときに最大限に引き立ちます。大和青果では、毎朝届くみずみずしい野菜と果物を取り揃え、皆様へお届けしております。どうぞ店頭で自然の甘さをお試しください。
+          </p>
+          <p style="text-align: right; font-weight: 700">
+            ― YAMATO SEIKA 店舗推奨
+          </p>
+        </div>
+      </section>
+
+      <!-- Fresh Fruits & Veggies -->
+      <section id="products" class="fruits-section">
+        <h2 class="section-title">Fresh Fruits &amp; Vegetables</h2>
+        <p class="subtitle">Discover our colorful selection of fresh produce</p>
+        <div class="icon-grid">
+          <div class="item">
+            <img
+              src="https://img.icons8.com/emoji/48/banana-emoji.png"
+              alt="Banana"
+            /><span>Banana</span>
+          </div>
+          <div class="item">
+            <img
+              src="https://img.icons8.com/emoji/48/grapes-emoji.png"
+              alt="Grapes"
+            /><span>Grapes</span>
+          </div>
+
+          <div class="item">
+            <img
+              src="https://img.icons8.com/emoji/48/carrot-emoji.png"
+              alt="Carrot"
+            /><span>Carrot</span>
+          </div>
+          <div class="item">
+            <img
+              src="https://img.icons8.com/emoji/48/broccoli-emoji.png"
+              alt="Broccoli"
+            /><span>Broccoli</span>
+          </div>
+          <div class="item">
+            <img
+              src="https://img.icons8.com/emoji/48/tomato-emoji.png"
+              alt="Tomato"
+            /><span>Tomato</span>
+          </div>
+        </div>
+        <p style="margin-top: 2rem; font-weight: 700">
+          Fresh from the farm to your table! 🌾🥬🥕
+        </p>
+      </section>
+
+      <!-- Store Gallery -->
+      <section class="gallery">
+        <h2 class="section-title" style="grid-column: 1/-1">店舗紹介</h2>
+        <img src="image/four.jpg" alt="store" />
+        <img src="image/five.jpg" alt="store" />
+        <img src="image/six.jpg" alt="store" />
+        <img src="image/seven.jpg" alt="store" />
+        <img src="image/three.jpg" alt="store" />
+        <img src="image/two.jpg" alt="store" />
+      </section>
+
+      <!-- Video Section -->
+      <section class="video-section">
+        <h2 class="section-title">店舗紹介動画</h2>
+        <h3>大和青果の日常をご覧ください</h3>
+        <div class="video-wrapper">
+          <!-- Replace with your real YouTube link -->
+          <iframe
+            src="image/vedio.mp4"
+            allowfullscreen
+            title="demo-video"
+          ></iframe>
+        </div>
+        <ul>
+          <li>採れたて入荷</li>
+          <li>鮮度最優先</li>
+          <li>下町価格</li>
+          <li>ご家庭応援</li>
+        </ul>
+      </section>
+
+      <!-- Story -->
+      <section id="about" class="story">
+        <div class="inner">
+          <h2 class="section-title">私たちの物語</h2>
+          <p>
+            私たちは、大地の恵みを届けるお手伝いをし、お客様が笑顔に立ち返られる、地域の「食」と「人」をつなぐ架け橋でありたいと願っています。
+            初めての方も、いつも来てくださる方も、温かく見守ってくださいますよう。
+          </p>
+          <img src="image/eight.jpg" alt="店主" />
+          <h3>店主からのメッセージ</h3>
+          <p>
+            店主 ― POUJEL SIWASH<br />
+            「新鮮な野菜と果物で皆さまの毎日を彩ります。ぜひお立ち寄りください！」
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2 class="section-title">お問い合わせ</h2>
+        <div class="contact-grid">
+          <div class="card">
+            <h3>店舗所在地</h3>
+            <p>
+              〒165-0026<br />東京都中野区新井5-1-6-1<br />S CHOME-1-6-1 Arai,
+              Nakano City, Tokyo
+            </p>
+          </div>
+          <div class="card">
+            <h3>電話番号</h3>
+            <p>080-9876-7277</p>
+          </div>
+          <div class="card">
+            <h3>メールアドレス</h3>
+            <p>yamatoseika7803@gmail.com</p>
+          </div>
+          <div class="card" style="grid-column: 1/-1">
+            <iframe
+              class="map"
+              src="https://maps.google.com/maps?q=nakano%20city%20tokyo&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            ></iframe>
+          </div>
+        </div>
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </section>
+    </main>
+
+    <!-- ---------------- Footer ---------------- -->
+    <footer>
+      <p>&copy; 2025 大和青果. All rights reserved.</p>
+      <p>Created by Rajendra Shrestha</p>
+    </footer>
+
+    <!-- ---------------- Scripts ---------------- -->
+    <script src="javascript.js"></script>
+  </body>
+</html>

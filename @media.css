@@ -1,0 +1,128 @@
+
+    
+
+ @media (min-width: 200px) and (max-width:700px) {
+      
+    .header {
+      flex-direction: column;
+     height: auto;
+    align-items: center;
+    
+    gap: 25px;
+     }
+     .navbar {
+    flex-direction: column;
+    gap: 20px;
+     }
+     .home{
+        padding-top: 180px;
+     }
+     .box1{
+        height: 700px;
+     }
+     .box1 p{
+        display: flex;
+        flex-direction: column;
+     }
+}
+
+
+ @media (min-width: 200px) and (max-width:1200px) {
+    
+    
+    
+    
+    #about{
+        height: 1100px;
+    }
+    
+.box{
+        height: 630px;
+    }
+    .box2{
+        flex-direction: column;
+        height: 800px;
+    }
+    .box2  img{
+        width: 250px;
+    }
+    section .contianer1 {
+        flex-direction: column;
+    }
+    .row15{
+        grid-template-columns: auto;
+    }
+    .row4 {
+        
+        flex-direction: column;
+    }
+    
+    .container9{
+        height: 1250px;
+        flex-direction: column;
+    }
+    .Subscribers{
+        height: auto;
+    }
+    
+    footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .row1{
+        width: 80vw;
+        text-align: center;
+        margin: auto;
+    }
+     .skill-bar{
+       width: 80vw;
+     }
+    
+    .grid img{
+        height: 270px;
+        width: 300px;
+        padding: 20px; 
+        text-align: center;
+    }
+    .secondlastp{
+        width: 80vw;
+
+    }
+    .row5 p{
+        width: 80vw;
+        margin: auto;
+    }
+
+    .box p{
+        
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
+
+    }
+    .logo5{
+        border-right: none;
+    }
+}  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>商品告知ページ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="img/banner1.jpg" alt="エナジードリンク画像" />
+        <div class="text-area">
+          <h6>EWEN ENERGY DRINK</h6>
+          <h1>MATCHA</h1>
+          <h2>POWER!</h2>
+          <h3>抹茶の力で、もうひと頑張り！新発売のエナジードリンク.</h3>
+        </div>
+      </div>
+      <div class="message">
+        <p>
+          自然なエネルギーを感じるために抹茶の深い味わいを取り入れた、他にはないエナジードリンクです。
+        </p>
+        <p>
+          集中力を高め、勉強中の疲れを癒やしてくれる効果を強調。仕事での疲れを取り、リフレッシュするためにぴったりな飲料。
+        </p>
+        <button>詳細を見る</button>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const msgArea = document.querySelector(".message");
+        const paragraphs = msgArea.querySelectorAll("p");
+        const btn = msgArea.querySelector("button");
+
+        btn.textContent = "詳細を見る";
+
+        btn.addEventListener("click", () => {
+          const isHidden = paragraphs[0].style.display === "none";
+
+          paragraphs.forEach(
+            (p) => (p.style.display = isHidden ? "block" : "none")
+          );
+
+          btn.textContent = isHidden ? "閉じる" : "詳細を見る";
+        });
+      });
+    </script>
+  </body>
+</html>
